@@ -17,7 +17,7 @@ if (localStorage.getItem('test') == "key") {
 } else {
   localStorage.setItem('test', 'key')
 }
-
+ 
 function myWall(items){
 items.forEach(function (element) {
 let makeList = document.createElement('li')
